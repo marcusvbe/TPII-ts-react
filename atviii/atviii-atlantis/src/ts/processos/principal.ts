@@ -51,9 +51,6 @@ export default class Principal extends Processo {
                 this.processo = new CadastroHospedagem()
                 this.processo.processar()
                 break
-            case 9:
-                this.processo = new CadastroNovaAcomodacao()
-                this.processo.processar()
             case 0:
                 this.execucao = false
                 console.log('Até logo!')
